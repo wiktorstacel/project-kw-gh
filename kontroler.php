@@ -26,7 +26,6 @@ class Kontroler {
         
         // Przykład prostego wyświetlenia danych z formularza
         $dane_hello = "Wprowadzone dane: Imię: $imie, Email: $email";
-
         // Dodaj dane osób do danych z formularza
         //$dane_z_formularza = array_merge($this->dane_osob, array('formularz' => $dane));
         // Wyświetl widok z danymi
