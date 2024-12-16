@@ -11,6 +11,10 @@ class Kontroler {
         // Pobierz dane lub wykonaj inne operacje biznesowe
         $dane_hello = "Witaj, świat!";
         
+        //Dodane 16.12.2024: Testowanie pobrania URI
+        $url = $_SERVER['REQUEST_URI'];
+        $cleanUrl = parse_url($url, PHP_URL_PATH);
+        
         // Wyświetl widok, przekazując mu dane
         include 'views/widok.php';
     }
