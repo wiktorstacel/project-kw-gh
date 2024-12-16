@@ -23,6 +23,7 @@
     <h5><?php echo $dane_hello; ?></h5>
     <h5><?php echo $url; ?></h5>
     <h5><?php echo $cleanUrl; ?></h5>
+    <?php print implode(" ; ",$_SERVER); ?>
     <p><a href="index.php?action=formularz">Przejdź do formularza</a></p>
 </body>
 </html>
